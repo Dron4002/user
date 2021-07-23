@@ -8,7 +8,7 @@ class User():
         self.city = city
         self.pole = pole
         self.family_status = family_status
-        if city == 'Ryazan' and pole == 'woman':
+        if pole == 'woman':
 
             print(f"Hello, my name is {self.first_name} {self.last_name}, I'm {age}. I'm {pole}, I'm from {city} and {family_status}")
         else:
